@@ -1,4 +1,4 @@
-## Hexal Energy app
+## Serverless Aplication Kelompok 3 Cloud Computing
 
 Our Team:
 1. Aldi Zulfikar
