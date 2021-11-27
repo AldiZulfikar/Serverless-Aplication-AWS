@@ -25,10 +25,9 @@ export default class ProductAdmin extends Component {
       this.setState({products:[...this.this.state.products, this.state.Products]})
       this.setState({newproduct :{"productname":"", "id":""}})
     } catch (error) {
-      
+      console.log(error)
     }
-    this.setState({ products: [...this.state.products, this.state.newproduct] })
-    this.setState({ newproduct: { "productname": "", "id": ""}});
+  
   }
 
   handleUpdateProduct = async (id, name) => {
