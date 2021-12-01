@@ -13,4 +13,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync build/Serverless-Aplication-AWS/ s3://kelompok-3-serverless-Aplication --delete
+      - aws s3 sync build/Serverless-Aplication-AWS/ s3://kelompok-3-serverless-aplication --delete
